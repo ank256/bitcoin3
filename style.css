@@ -1,0 +1,167 @@
+* {
+    font-family: "roboto", "sans-serif";
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-color: black;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white !important;
+}
+.d-block{
+    background-size: cover;
+    background-position: center;
+    height: 43.6rem;
+    
+}
+
+.b-text{
+    font-weight: bolder;
+     position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center; 
+        
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+}
+.about{
+    font-weight: bolder;
+}
+
+.gym::before {
+    background: #FDB100;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 53.6rem;
+    left: 22.5rem;
+}
+
+
+.gym::after {
+    background: #FDB100;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 53.6rem;
+    left: 70.5rem;
+}
+
+
+
+.bitcoin::before {
+    background: #FDB100;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 87.5rem;
+    left: 32rem;
+}
+
+.bitcoin::after {
+    background: #FDB100;
+    content: "";
+    height: 2px;
+    width: 30px;
+    position: absolute;
+    top: 87.5rem;
+    left: 61rem;
+}
+.badge1{
+    background-color:black;
+    position: absolute;
+    margin-left: -26rem; 
+    border-radius: 0!important;
+}
+
+.banner-button{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+background-color: transparent; 
+color:#FDB100; 
+border: 1px solid #FDB100;
+}
+
+.border-right{
+border-right: 2px solid gray;
+padding-right: 4rem; 
+
+} 
+
+
+
+
+@media (max-width: 767.98px) {
+    .gym::before{
+        top: 53rem;
+        left: 2.6rem;
+    }
+    .gym::after {
+    top: 56.2rem;
+    left: 17rem;
+}
+
+.bitcoin::before {
+    top: 107.1rem;
+    left: 4rem;
+}
+
+.bitcoin::after {
+    top: 111rem;
+    left: 14.5rem;
+}
+
+.badge1{
+    margin-left: -24rem;
+}
+
+.navbar-light{
+    background-color: #FDB100!important;
+}
+
+.border-right{
+    padding-right: 0!important; 
+    padding-left: 0!important; 
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .bitcoin::before {
+        top: 111.4rem;
+        left:  9.5rem;
+    }
+    
+    .bitcoin::after {
+        top: 111.4rem;
+       left: 39rem;
+    }
+    
+    .gym::before {
+        left:  0.5rem;
+    }
+
+    .gym::after {
+        left:  47.5rem;
+    }
+    .badge1{
+        left: -19rem;
+    }
+}
